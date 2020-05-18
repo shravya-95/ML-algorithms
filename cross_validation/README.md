@@ -1,14 +1,14 @@
 Author: Krishna Shravya Gade </br>
 Date: 02.17.2020 </br>
 
-##How to run:
-1.Make sure latest sci-kit version is installed using pip3 </br>
-2.Place all the 3 folders in the current working directory of python 3 </br>
-3.Run the main file using the below commands: </br>
+## How to run:
+1. Make sure latest sci-kit version is installed using pip3 </br>
+2. Place all the 3 folders in the current working directory of python 3 </br>
+3. Run the main file using the below commands: </br>
 	Q3 i) python3 q3i.py </br>
 	Q3 ii) python3 q3ii.py </br>
 	Q4 iii) python3 q4.py </br>
-
+## Data details
 We will be considering three datasets (derived from two available datasets) for these assignments: </br>
 (a) Boston: The Boston housing dataset comes pre-packaged with scikit-learn. The dataset
 has 506 points, 13 features, and 1 target (response) variable. You can find more information
