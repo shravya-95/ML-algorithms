@@ -17,10 +17,12 @@ max{0, 1 − yt(wTxt +w0)} + w2 .
 We will use λ = 5 in this case. </br>
 
 
-We will develop code for MySVM2 with corresponding MySVM2.fit(X,y) and MySVM2.predict(X) functions. Parameters for the model can be initialized following what you had done for MyLogisticReg2. In the fit function, the parameters will be estimated using mini-batch stochastic gradient descent with different mini-batch sizes m ≤ n. In particular, you will
-(4)modify your MyLogisticReg2 code by using gradients for the SVM objective in (3) instead of the logistic regression objective in (4). Further, you will have to add the mini-batch stochastic gradient descent (SGD) functionality which, for a pre-specified mini-batch size m, picks m unique points at random to do the gradient descent in each iteration. We will run experiments with different values of m.
-We will compare the performance of MySVM2 for different values of mini-batch size m with LogisticRegression1 on two datasets: Boston50 and Boston75. Recall that Boston has 506 data points, and a 5-fold cross-validation leaves n ≈ 400 points for training in each fold.2 For mini-batch SGD, we will consider three different values of m </br>
+
 
 ## Code details:
+
+Ddevelop code for MySVM2 with corresponding MySVM2.fit(X,y) and MySVM2.predict(X) functions. Parameters for the model can be initialized following what you had done for MyLogisticReg2. In the fit function, the parameters will be estimated using mini-batch stochastic gradient descent with different mini-batch sizes m ≤ n. In particular, you will
+(4)modify your MyLogisticReg2 code by using gradients for the SVM objective in (3) instead of the logistic regression objective in (4). Further, you will have to add the mini-batch stochastic gradient descent (SGD) functionality which, for a pre-specified mini-batch size m, picks m unique points at random to do the gradient descent in each iteration. We will run experiments with different values of m.
+We will compare the performance of MySVM2 for different values of mini-batch size m with LogisticRegression1 on two datasets: Boston50 and Boston75. Recall that Boston has 506 data points, and a 5-fold cross-validation leaves n ≈ 400 points for training in each fold.2 For mini-batch SGD, we will consider three different values of m </br>
 
 Using my cross val with 5-fold cross-validation, report the error rates in each fold as well as the mean and standard deviation of error rates across all folds for the four methods: MySVM2 with m = 40,m = 200, and m = n, and LogisticRegression, applied to the two 2-class classification datasets: Boston50 and Boston75. </br>
