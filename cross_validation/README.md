@@ -1,10 +1,10 @@
 Author: Krishna Shravya Gade </br>
 Date: 02.17.2020 </br>
 
-##How to run:
-1.Make sure latest sci-kit version is installed using pip3 </br>
-2.Place all the 3 folders in the current working directory of python 3 </br>
-3.Run the main file using the below commands: </br>
+## How to run:
+1. Make sure latest sci-kit version is installed using pip3 </br>
+2. Place all the 3 folders in the current working directory of python 3 </br>
+3. Run the main file using the below commands: </br>
 	Q3 i) python3 q3i.py </br>
 	Q3 ii) python3 q3ii.py </br>
 	Q4 iii) python3 q4.py </br>
